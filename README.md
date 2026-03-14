@@ -42,17 +42,17 @@ Mild Impairment
 
 Moderate Impairment
 
-![Moderate Impairment](https://github.com/vb3genai/AI_HealthCare_Project/blob/main/sample_dataset/ModerateImpairment%20(1).jpg)
+![Moderate Impairment](https://github.com/vb3genai/AI_HealthCare/blob/main/sample_dataset/ModerateImpairment%20(1).jpg)
 
 
 No Impairment
 
-![No Impairment](https://github.com/vb3genai/AI_HealthCare_Project/blob/main/sample_dataset/NoImpairment%20(1).jpg)
+![No Impairment](https://github.com/vb3genai/AI_HealthCare/blob/main/sample_dataset/NoImpairment%20(1).jpg)
 
 
 VeryMildImpairment
 
-![VeryMildImpairment](https://github.com/vb3genai/AI_HealthCare_Project/blob/main/sample_dataset/VeryMildImpairment%20(1).jpg)
+![VeryMildImpairment](https://github.com/vb3genai/AI_HealthCare/blob/main/sample_dataset/VeryMildImpairment%20(1).jpg)
 
 
 
@@ -125,7 +125,7 @@ The test set evaluation includes:
 ##  Single‑Image Prediction  
 A minimal inference example is included to load a single MRI slice, preprocess it, run the model, and display the predicted class using Matplotlib.
 
-![alt text](https://github.com/vb3genai/AI_HealthCare_Project/blob/main/sample_dataset/Test_A_Prediction/test_pred.png)
+![alt text](https://github.com/vb3genai/AI_HealthCare/blob/main/sample_dataset/Test_A_Prediction/test_pred.png)
 ---
 
 ##  Visualizations  
