@@ -37,6 +37,7 @@ DataSet/
 Each folder contains `.jpg`, `.jpeg`, or `.png` MRI slices.
 
 Mild Impairment
+
 ![Mild Impairment](https://github.com/vb3genai/AI_HealthCare/blob/main/sample_dataset/MildImpairment%20(1).jpg)
 
 
