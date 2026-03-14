@@ -1,10 +1,11 @@
 #  Alzheimer’s detection Using MONAI framework
-A deep‑learning pipeline for classifying cognitive impairment levels from MRI images using **PyTorch** and **MONAI** https://project-monai.github.io/ . This project provides a full workflow from dataset preparation to model training, evaluation, and single‑image inference. This project is done locally on Windows 11 Pro laptop.
+A deep‑learning pipeline for classifying cognitive impairment levels from MRI images using **PyTorch** and **MONAI** (https://project-monai.github.io/). 
+This project provides a full workflow from dataset preparation to model training, evaluation, and single‑image inference. This project is done locally on Windows 11 Pro laptop.
 
 ---
 
 ##  Project Overview  
-This project builds a 2D convolutional neural network (ResNet‑18 https://huggingface.co/microsoft/resnet-18 ) to classify MRI slices into four cognitive impairment categories:
+This project builds a 2D convolutional neural network (ResNet‑18 - https://huggingface.co/microsoft/resnet-18 ) to classify MRI images into four below cognitive impairment categories:
 
 - **No Impairment**  
 - **Very Mild Impairment**  
@@ -68,7 +69,7 @@ pip install monai nibabel matplotlib seaborn scikit-learn torch torchvision
 
 ---
 
-##  Key Dependencies  
+##  Key Dependencies  (for information)
 - **MONAI** – medical imaging deep learning framework  
 - **PyTorch** – model training backend  
 - **Nibabel** – MRI/NIfTI handling  
@@ -78,7 +79,7 @@ pip install monai nibabel matplotlib seaborn scikit-learn torch torchvision
 ---
 
 ##  Preprocessing Pipeline  
-The project uses MONAI transforms for:
+The project uses MONAI framework to transforms for:
 
 - Loading images  
 - Ensuring channel-first format  
@@ -92,7 +93,7 @@ Caching is used to speed up training.
 ---
 
 ##  Model Architecture  
-A modified **ResNet‑18** is used:
+**ResNet‑18** is used:
 
 - Input channels: **1** (grayscale MRI)  
 - Output classes: **4**  
@@ -123,7 +124,7 @@ The test set evaluation includes:
 
 ---
 
-##  Single‑Image Prediction  
+##  Testing time - A Single‑Image Prediction  
 A minimal inference example is included to load a single MRI slice, preprocess it, run the model, and display the predicted class using Matplotlib.
 
 ![alt text](https://github.com/vb3genai/AI_HealthCare/blob/main/sample_dataset/Test_A_Prediction/test_pred.png)
@@ -153,6 +154,6 @@ Potential extensions include:
 ---
 
 ## Conclusion  
-This project provides a complete, reproducible deep‑learning pipeline for MRI‑based cognitive impairment classification using MONAI. It is designed for clarity, extensibility, and educational value, enabling researchers and practitioners to build upon a solid foundation for clinical AI experimentation.
+This project provides a complete, reproducible deep‑learning pipeline for MRI‑based cognitive impairment classification using MONAI enabling anyone to build upon a solid foundation for clinical AI experimentation.
 
 ---
