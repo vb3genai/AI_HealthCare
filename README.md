@@ -2,7 +2,7 @@
 A deep‑learning pipeline for classifying cognitive impairment levels from MRI images using **PyTorch** and **MONAI** (https://project-monai.github.io/). 
 This project provides a full workflow from dataset preparation to model training, evaluation, and single‑image inference. This project is done locally on Windows 11 Pro laptop. To replicate the project download Alzheimer_Prediction.ipynb and run it locally or on google Collab Pro. 
 
-Note: Due to images model training takes bit time on locally and sometimes on Google Collab Pro though google pro is fast.
+**Note**: Due to images model training takes bit time on locally and sometimes on Google Collab Pro though google pro is fast.
 
 ---
 
