@@ -37,6 +37,8 @@ DataSet/
       Moderate Impairment/
 ```
 
+**Note** - test/ used as a validation set during training and evaluation
+
 Each folder contains `.jpg` MRI images. Sample for each category is as below:
 
 Mild Impairment
@@ -113,7 +115,8 @@ The training loop includes:
 - Weight updates  
 - Epoch‑level loss tracking  
 
-Validation accuracy is computed after each epoch.
+Validation accuracy is computed after each epoch. 
+**Note** A separate validation split is not created. Instead, the test/ folder is used for validation accuracy during training.
 
 ---
 
